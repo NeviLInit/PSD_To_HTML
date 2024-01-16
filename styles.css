@@ -1,10 +1,47 @@
-.icons{
-    width: 1170px;
+
+.TopBar29k{
+
     height: 40px;
     background-color: rgb(25, 25, 25);
-
-
+    width: 100%;
 }
 body{
     margin: 0;
+    
+}
+
+.MainContainer29k{
+    margin-left: 269.3px;
+    width: 1170px;
+}
+
+.toplefticons29k i{
+    color: rgb(112, 112, 112); 
+    margin-top: 12px;
+    margin-left: 11px;
+}
+
+.toplefticons29k i:first-child {
+    margin-left: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.toprighticons29k {
+    color: rgb(112, 112, 112); 
+    margin-top:-21px;
+    margin-left: 11px;
+}
+
+.toprighticons29k span:first-child{
+    margin-left: 996px;
+    color: rgb(112, 112, 112); 
+    font-size: 19px;
+
+}
+
+.signin29k{
+    font-family: 'Montserrat', sans-serif;
 }
