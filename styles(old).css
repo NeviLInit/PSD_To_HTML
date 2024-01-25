@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-bar29k {
+    height: 40px;
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    
+}
+
+.main-container-top29k {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1170px;
+    height: auto;
+}
+
+.top-left-icons29k i {
+    color: rgb(112, 112, 112);
+    margin-top: 12px;
+    margin-left: 11px;
+}
+
+.top-left-icons29k a {
+    margin-right: 11px; 
+}
+
+.top-left-icons29k i:first-child {
+    margin-left: 0;
+}
+
+
+.top-right-icons29k{
+    display: flex;
+    align-items: center;
+    height: 40px;  
+    width: 165px;
+}
+
+
+.account-circle29k{
+    font-size: 19px ;
+    margin-top: 2px;
+    color: rgb(112, 112, 112)
+}
+
+
+.sign-in29k{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px; 
+    margin-left: 5px;
+    margin-top: 14px;
+    word-spacing: 1.5px;
+    color: rgb(112, 112, 112)
+} 
+
+.bar29k{
+    margin-left: 12px;
+    font-size: 22px;
+    font-weight: 0;
+    margin-top: 0px;
+    color: rgb(112, 112, 112);
+    
+    
+}
+
+.languages29k{
+    margin-left: 12px; 
+    margin-top: 3px;
+    width: 16px ;
+    color: rgb(112, 112, 112);
+    font-size: 19px ;
+}
+
+
+.eng29k{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+    margin-left: 8px;
+    margin-top: 1px;
+}
+
+.expand-more29k{
+    color: rgb(112, 112, 112);
+    width: 8px;
+    margin-top: 4px;
+    font-size: 20px  ;
+    margin-left: -2px
+
+}
+
+.center-main-container29k {
+    margin: auto;
+    width: 1170px;
+    display: flex;
+
+}
+
+.pasco29k{
+    margin-top: 19px;
+    font-size: 24px;
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+.overlay29k {
+    background: linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.9)), url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.dropdowns29k{
+    width: auto;
+    height: auto;
+}
+
+.dropdowns29k a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    display: inline-block; 
+    line-height: 39px; 
+    margin-left: 7px;
+    padding-left: 10px;
+    letter-spacing: 0.5px;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.dropdowns29k a:hover {
+    border-bottom: solid rgb(255, 63, 129);
+    border-width: 4px;
+}
+
+.dropdowns29k a:first-child {
+    margin-left: 112px;
+}
+/* use margin left on parent class */
+.exp29k {
+    top: 5px;
+    position: relative;
+    margin-left: 4px;
+    font-size: 22px 
+}
+/* checkout shorthand property of margins, lets u write margins in a single line, use margin right and left on parent class itself */
+.search29k {
+    color: #fff;
+    margin-top: 14px;
+    margin-left: 38px;
+    padding: 10px; 
+}
+
+.vertical-bar29k {
+    border-left: 1px solid rgb(92, 92, 91);
+    height: 30px;
+    margin-top: 20px;
+    border-width: 1.5px;
+}
+
+.heart29k {
+    color: #fff;
+    margin-top: 14px;
+    padding: 10px; 
+    margin-left: 1px;
+}
+
+.cart29k {
+    color: #fff;
+    margin-top: 13px;
+    margin-left: 4px;
+    padding: 10px; 
+}
+/* make a single class for all 3 icons */
+
+.middlepage29k {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 111px;
+
+
+}
+
+.inspiration29k {
+    font-size: 20px; 
+    color:  rgb(189, 189, 189); 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500; 
+    margin-left: 4px;
+    letter-spacing: 0.65px;
+    margin-top: 108px;
+}
+
+.middlepage29k .bigtext29k{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255,255,255);
+    font-size: 41px;
+    font-weight: 900;
+    text-align: center;
+    width: 850px;
+    letter-spacing: 1.7px;
+    margin-top: 14px;
+    margin-left: 13px;
+}
+/* get rid of this width as well */
