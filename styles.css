@@ -180,3 +180,60 @@ a {
     border: none;
     cursor: pointer;
 }
+
+.profile-container29k{
+    width: 50px; 
+    height: 50px ;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 78px;
+}
+
+.profile-image29k{
+    width: 100%; 
+    transform: scale(1.2);
+}
+
+.henry29k{
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 17px;
+    font-size: 14px;
+    font-weight: 600;
+    word-spacing: 1px;
+    letter-spacing: 0.6px;
+}
+
+.date-n-time29k{
+    color: #8d8c8d;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-left: 1px
+}
+
+.comments-and-likes29k {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 33px 3px 70px 0;
+}
+
+.comments-and-likes29k .material-icons{
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+.comments-and-likes29k a{
+    color: #bfbfbf;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+}
+
+.comms29k{
+    margin-right: 30px;
+    
+}
