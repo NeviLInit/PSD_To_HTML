@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;650;700;800;900&display=swap');
 
 body {
     margin: 0;
@@ -53,7 +53,7 @@ a {
     margin-left: 3px;
     font-size: 17px;
 }
-.vertical-bar29k {
+.vertical-bar29k{
     border-left: 1px solid #666666;
     height: 20px;
     border-width: 1.5px;
@@ -69,3 +69,114 @@ a {
     background-repeat: no-repeat;
 }
 
+.Pascolayer29k{
+    margin: auto;
+    width: 1170px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.Pasco29k{
+    margin-top: 19px;
+    font-size: 24px;
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.dds29k{
+    margin-top: 22.5px;
+    display: flex;
+    align-items: center;
+    margin-left: 49px;
+}
+
+.dds29k .fa{
+    margin-left: 11px;
+    font-size: 17px;
+}
+
+.dds29k a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    padding-bottom: 23px;
+
+}
+
+.dds29k a:first-child {
+    border-bottom: solid rgb(255, 63, 129);
+    border-width: 4px;
+    margin-top: 4px;
+}
+
+.three-icons29k{
+    display: flex;
+    align-items: center;
+    margin-right: 6px;
+}
+ 
+.three-icons29k a{
+    color: #ffffff;
+    padding: 9px;
+    margin-top: 4px;
+}
+
+.vertical-bar29k-3icons{
+    border-left: 1px solid #666666;
+    height: 30px;
+    border-width: 1.5px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.middle-page29k{
+    margin-top: 211px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inspiration29k{
+    font-size: 20px; 
+    color:  rgb(189, 189, 189); 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500; 
+    margin-left: 4px;
+    letter-spacing: 0.65px;
+    margin-bottom: 14px;
+}
+
+.big-text29k{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255,255,255);
+    font-size: 43.5px;
+    font-weight: 800;
+}
+
+.middle-page29k h1{
+    margin: 0;
+}
+
+.read-more29k{
+    height: 46px;
+    border-radius: 23px;
+    background-color: #2f3f9f;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 27px;
+    width: 170px;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+}
