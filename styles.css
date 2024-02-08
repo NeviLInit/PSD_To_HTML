@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;650;700;800;900&display=swap');
-
 body {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 a {
     text-decoration: none;
 }
 
-.top-bar29k {
+.top-bar29k{
     height: 40px;
     background-color: #191919;
 }
@@ -39,7 +38,6 @@ a {
     display: flex;
     align-items: center;
     color: #646464;
-    font-family: "Montserrat", sans-serif;
     font-size: 12px;
 }
 
@@ -50,22 +48,18 @@ a {
 
 .top-right-icons29k .last-icon29k{
     margin-right: 0px;
-    margin-left: 3px;
-    font-size: 17px;
+    width: 13px;
 }
 .vertical-bar29k{
     border-left: 1px solid #666666;
     height: 20px;
     border-width: 1.5px;
-    margin-left: 15px;
-    margin-top: 11px;
-    margin-right: 13px;
+    margin: 11px 13px 0px 15px;
 }
 
 .background1st29k{
     background: linear-gradient(#222222cc, #222222e6), url('background.jpg');
     background-size: cover;
-    background-position: fixed;
     background-repeat: no-repeat;
 }
 
@@ -75,35 +69,32 @@ a {
     height: auto;
     display: flex;
     justify-content: space-between;
-    color: #ffffff;
+    margin-bottom: 210px;
 }
 
 .Pasco29k{
     margin-top: 19px;
     font-size: 24px;
-    font-family: "Monsterrat", sans-serif;
-    font-weight: 700;
     color: #fff;
     letter-spacing: 2px;
 }
 
 .dds29k{
-    margin-top: 22.5px;
+    margin-top: 20.5px;
     display: flex;
     align-items: center;
-    margin-left: 49px;
+    margin-left: 52px;
 }
 
-.dds29k .fa{
-    margin-left: 11px;
-    font-size: 17px;
+.dds29k .material-icons{
+    margin-left: 6px;
+    font-size: 20px;
 }
 
 .dds29k a {
     color: #fff;
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    margin-left: 14px;
+    margin-left: 9px;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -113,7 +104,7 @@ a {
 }
 
 .dds29k a:first-child {
-    border-bottom: solid rgb(255, 63, 129);
+    border-bottom: solid #ff3f81;
     border-width: 4px;
     margin-top: 4px;
 }
@@ -139,64 +130,63 @@ a {
 }
 
 .middle-page29k{
-    margin-top: 211px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 1170px;
+    margin: auto;
 }
 
 .inspiration29k{
     font-size: 20px; 
-    color:  rgb(189, 189, 189); 
-    font-family: "Montserrat", sans-serif; 
+    color:  #bdbdbd;
     font-weight: 500; 
     margin-left: 4px;
     letter-spacing: 0.65px;
-    margin-bottom: 14px;
+    margin-bottom: 13.5px;
 }
 
 .big-text29k{
-    font-family: "Montserrat", sans-serif;
-    color: rgb(255,255,255);
-    font-size: 43.5px;
+    color: #ffffff;
+    font-size: 43px;
     font-weight: 800;
-}
-
-.middle-page29k h1{
+    text-align: center;
+    width: 80%;
     margin: 0;
+    letter-spacing: 0.5px;
+    padding-left: 10px;
 }
 
 .read-more29k{
-    height: 46px;
     border-radius: 23px;
     background-color: #2f3f9f;
     color: #fff;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
-    margin-top: 27px;
-    width: 170px;
+    margin-top: 29px;
+    padding: 11px 28px 10px;
     text-align: center;
-    line-height: 40px;
     border: none;
-    cursor: pointer;
+    margin-bottom: 81px;
 }
 
-.profile-container29k{
-    width: 50px; 
-    height: 50px ;
+.profile-container29k {
+    display: inline-block;
     overflow: hidden;
     border-radius: 50%;
-    margin-top: 78px;
+    width: 50px; 
+    height: 50px ;
 }
 
-.profile-image29k{
-    width: 100%; 
+.profile-image29k {
+    width: 100%;
     transform: scale(1.2);
+    border-radius: 50%;
+    display: block;
 }
 
 .henry29k{
     color: #ffffff;
-    font-family: "Montserrat", sans-serif;
     margin-top: 17px;
     font-size: 14px;
     font-weight: 600;
@@ -207,18 +197,16 @@ a {
 .date-n-time29k{
     color: #8d8c8d;
     font-size: 12px;
-    font-family: "Montserrat", sans-serif;
     letter-spacing: 0.5px;
-    margin-top: 10px;
+    margin-top: 11px;
     margin-left: 1px
 }
 
 .comments-and-likes29k {
     font-size: 12px;
-    font-family: "Montserrat", sans-serif;
     display: flex;
     align-items: center;
-    margin: 33px 3px 70px 0;
+    margin: 33px 5px 67px 0;
 }
 
 .comments-and-likes29k .material-icons{
@@ -236,4 +224,722 @@ a {
 .comms29k{
     margin-right: 30px;
     
+}
+
+.page2top29k{
+    border-bottom: solid 2px #dddddd;
+}
+
+.page2topcontainer29k{
+    height: 60px;
+    margin: auto;
+    width: 1170px;
+    display: flex;
+}
+
+.page2topcontainer29k span{
+    color:#242424;
+    font-weight: 700;
+    padding: 0;
+    margin-top: 24px;
+    margin-right: 21px;
+    font-size: 12px;
+}
+
+.page2topcontainer29k .all29k{
+    border: 1px solid #4556b7;
+    color: #4556b7;
+    padding:4px 29.5px 0px 25.5px;
+}
+
+.page2topcontainer29k button{
+    border-radius: 15px;
+    background-color: #f5f5f5;
+    border:none;
+    color: #343434;
+    padding: 10px 27.5px;
+    margin: 15px 15px 15px 0px;
+    line-height: 13px;
+    font-size: 12px;
+}
+
+.page2_29k .material-icons{
+    color: #ffffff;
+}
+
+
+.p2background{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.p2maincontainer {
+    min-width: 1170px;
+    display: flex;
+    padding-top: 30px;
+    margin: 0 auto;
+    gap:41px;
+    justify-content: center;
+}
+
+.p2leftcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 70.8%;
+}
+
+.p2manphoto-section{
+    position: relative;
+    background-image: url("man.jpg");
+    background-repeat: no-repeat;
+    height: 420px;
+}
+
+.p2button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 60px;
+    transform: translate(-50%, -50%);
+    width: 60px;
+}
+
+.man-lifestyle {
+    position: absolute;
+    bottom: 17.5px;
+    left: 19.5px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.man-comms-likes{
+    position: absolute;
+    bottom: 17.5px;
+    right: 17.5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.man-comms-likes a{
+    color: #ffffff;
+    margin-left: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.man-comms-likes .material-icons{
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.p2vidbox{
+    background-color: white;
+    padding:14px 21px 4px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.p2titles{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: 0;
+    width: fit-content;
+    display: inline-block;
+    padding-left: 1px;
+}
+
+.p2title-desc{
+    color: black;
+    padding: 5px 0px 10px;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 0.4px;
+}
+
+.p2vidauthor{
+    background-color: white;
+    padding:21px 19px 20px 21px;
+    display: flex;
+    border-bottom: 2px solid #dcdcdc;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.leftside{
+    display: flex;
+}
+.p2-name-date{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+}
+
+.authorname{
+    padding: 5px 1px 4px;
+    font-size: 14px;
+    color: black;
+}
+
+.p2dots{
+    color: black;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 19px;
+}
+
+.p2othersection  .p2vidbox{
+    padding: 9px 0 5px 19px; 
+}
+
+.p2othersection .p2titles{
+    font-size: 16px
+}
+
+.p2othersection .p2title-desc{
+    font-size: 14px;
+    line-height: 21px;
+    padding: 8px 0 10px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+
+.p2membersection{
+    display: flex;
+    padding-top: 20px;
+    border-radius: 5px;
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.horizantalcards .p2mansection{
+    border-top: 1px solid #e0e0e0;
+}
+.p2othersection .p2vidauthor{
+    border:none;
+}
+
+.p2girlphoto{
+    position: relative;
+    background-image: url("girl.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 31.7%;
+}
+
+.p2othersection .p2button{
+    font-size: 50px;
+    width: 50px;
+}
+
+.p2skatephoto{   
+    position: relative;
+    background-image: url("skate.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 31.7%;
+}
+
+.p2seaphoto{
+    position: relative;
+    background-image: url("sea.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 31.7%;
+}
+
+.p2othersection .p2vidauthor{
+    padding:11px 19px 9px 21px;
+}
+
+.horizantalcards{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.p2_1photo-section{
+    position: relative;
+    background-image: url("berries.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    background-size: cover;
+}
+
+.p2_2photo-section{
+    position: relative;
+    background-image: url("fedora.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    background-size: cover;
+}
+
+.p2glassesphoto-section{
+    position: relative;
+    background-image: url("glasses.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    background-size: cover;
+}
+
+
+.p2glassesphoto-section .man-comms-likes a{
+    margin-left: 15px;
+}
+
+.horizantalcards .p2titles{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.horizantalcards .p2title-desc{
+    padding: 7.5px 0px 10px;
+}
+
+.horizantalcards .p2vidbox{
+    font-size: 14px;
+    padding: 11px 13px 15px 21px;
+    position: relative;
+}
+
+.horizantalcards .p2vidauthor{
+    padding:15px 19px 19.5px 21px;
+}
+
+.horizantalcards .p2dots{
+    margin-top: 24px;
+}
+
+.horizantalcards .man-comms-likes{
+    bottom: 11.5px;
+}
+
+.horizantalcards .man-lifestyle{
+    bottom: 11.5px;
+}
+
+.p2arrows .material-icons{
+    color: #3f51b5;
+    top: 37%;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.p2arrow1{
+    position: absolute;
+    left: 12px;
+    padding: 10px 7px 11px 14px;
+}
+.p2arrow2{
+    position: absolute;
+    right: 8px;
+    padding: 10px 11px 11px 10px;
+}
+
+.lastcards .p2_1photo-section{
+    background-image: url("cloud.png");
+    padding: 0;
+    height: 300px;
+}
+
+.lastcards .p2_2photo-section{
+    background-image: url("girl2.png");
+    padding: 0;
+    height: 300px;
+}
+
+.lastcards .horizantalcards{
+    padding-top: 18px;
+}
+
+.lastcards .man-comms-likes{
+    bottom: 17.5px;
+}
+
+.lastcards .man-lifestyle{
+    bottom: 17.5px;
+}
+
+.previously-visited .p2titles{
+    color: #3f51b5;
+}
+
+.lastcards .p2titles{
+    font-size: 18px;
+}
+
+.lastcards .p2title-desc{
+    padding: 5.5px 0px 0px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.lastcards .p2vidauthor{
+    padding:15px 19px 14.5px 21px;
+}
+
+.lastcards .p2dots{
+    margin-top: 15px;
+}
+
+.extramore{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p2more{
+    color: #3f51b5;
+    display: flex;
+    align-items: center;
+    margin: 42px 0px;
+}
+
+.p2more .material-icons{
+    color: #3f51b5;
+    margin-left: 11px;
+    font-size: 23px;
+}
+
+.icon-container {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3pics{
+    background-image: url("pics.png");
+    padding: 120px;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.page3forest{
+    background-image: url("forest.png");
+    padding: 100px;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    /* filter: saturate(400%);
+    filter: brightness(200%); */
+    /* filter: contrast(300%); */
+}
+
+.page3bg{
+    background-color: #212121;
+    padding: 1000px 0px;
+}
+
+.leftbg{    
+    background-color: #f5f5f5;
+    height: 2302px;
+    right: 0;
+    width: 100%;
+}
+.rightbg{
+    background-color: white;
+    height: 2302px;
+    right: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.lastcards .fadeball{
+    width: 230px;
+    right: 10px;
+    bottom: 0;
+}
+
+.fadeball{
+  width: 50px;
+  height: 40px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  position: absolute;
+  right:18px;
+  bottom: 10px;
+}
+
+.rightcontainer {
+    width: 26.5%;
+    background-color: white;
+}
+.rightcontent{
+    padding-left: 37px;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 23px 0px 0px 3px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f5f5f5;
+    width: 92.8%;
+    padding: 4px 0px 4px 13px;
+    align-items: center;
+    padding-left:13px;
+}
+
+.searchbar .input-search{
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 90%;
+    padding-left: 5px;
+    font-size: 16px;
+    border: none; 
+    background-color: #f5f5f5;
+    margin-top:1px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.searchbar .icon-container{
+    background-color: #ff4081;
+    height: 35px;
+    width: 35px;
+    margin-right: 1px;
+}
+
+.icon-container .material-icons{
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.categorysection{
+    margin-top: 25.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p2bluetext{
+    font-size: 19px;
+    margin-bottom: 6px;
+    color: #3f51b5;
+    font-weight: 700;
+}
+
+.categorycontent{
+    border-top: 1px solid #aec3ff;
+    font-size: 15px;
+    padding-top: 14.5px;
+}
+
+.categorytype{
+    display: flex;
+    flex-direction: column;
+    gap: 10.5px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.catrow{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #ebeae9 solid 1px;
+    padding-bottom: 11.5px;
+}
+
+.categorytype a{
+    color: black;
+}
+
+.categorytype span{
+    font-weight:700;
+    margin: 1px 0px 0px 1px;
+    font-size: 14px;
+}
+
+.subsection{
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+}
+
+.subsection .p2bluetext{
+    font-size: 19px;
+    margin-left: 2.5px;
+    font-weight: 700;
+}
+
+.subcontent{
+    padding-top: 13.5px;
+    border-top: 1px solid #aec3ff;
+    display: flex;
+    flex-direction: column;
+}
+
+.subcontent .input-search{
+    padding: 13px 0px 12px 15px;
+    /* use padding */
+    border: 1px  #e0e0e0 solid;
+    border-radius: 5px;
+    margin-top: 11px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 2px;
+    font-size: 16px;
+}
+
+.emailrightbar{
+    margin-top: 14px;
+}
+
+.subbutton{
+    padding: 13px 0px 13px 0px;
+    background-color: #3f51b5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 2px;
+    font-family: "Monsterrat", sans-serif;
+    font-size: 17px;
+}
+/* 
+.p2or{
+    font-size: 16px;
+} */
+
+.whitecontainer{
+    background-color: rgb(196, 76, 76);
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+}
+
+.p2socialmedia{
+    margin-top: 23.5px;
+    border-top: 1.5px solid #757575;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 26.5px;
+    gap: 7px;
+}
+
+.p2socialmedia a{
+    color: white;
+    font-size: 18px;
+}
+
+.p2socialmedia .icon-container{
+    height: 36px;
+    width: 36px;
+}
+
+.p2fbicon .icon-container{
+    background-color: #3b5999;
+}
+
+.p2twicon .icon-container{
+    background-color: #55abed;
+}
+
+.p2vkicon .icon-container{
+    background-color: #4575a3;
+}
+
+.p2pinicon .icon-container{
+    background-color: #ff2d55;
+}
+
+.p2tumicon .icon-container{
+    background-color: #33455d;
+}
+
+.p2driicon .icon-container{
+    background-color: #e94b89;
+}
+
+.p2tab{
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p2tabsection{
+    border-top: 1px solid #aec3ff;
+    padding-top: 19.5px;
+}
+
+.joint-buttons {
+    display: flex;
+    border: 1px solid #3f51b5;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+.joint-buttons a{
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 13px 18px 10px 17px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 50%;
+}
+
+.joint-buttons a:last-child {
+    background-color: white;
+    color: #3f51b5;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.p2posts{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p2post1{
+    display: flex;
+    margin-left: 2px;
+}
+
+.p2post1container{
+    height: 80px;
+    background-image: url("post1.png");
+    width: 100px;
+    background-size: cover;
+}
+
+.datentitle{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+.p2post1 .material-icons{
+    font-size: 12px;
+}
+.p2posts .material-icons{
+    color: #3f51b5; 
 }
