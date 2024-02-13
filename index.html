@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;650;700;800;900&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -340,41 +340,40 @@
                             </div>
                         </div>                        
                         <div class = categorysection>
-                            <span class = p2bluetext>CATEGORIES</span>
+                            <h4 class = p2bluetext>CATEGORIES</h4>
                             <div class = categorycontent>
                                 <div class = categorytype>
                                     <a href = # class = catrow>Photography<span>195</span></a>
                                     <a href = # class = catrow>Illustration<span>15</span></a>
                                     <a href = # class = catrow>Graphic Design<span>36</span></a>
                                     <a href = # class = catrow>Web Design<span>220</span></a>
-                                    <a href = # class = catrow>Videography<span>17</span></a>
+                                    <div class = lasttype><a href = # class = catrow>Videography<span>17</span></a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class = subsection>
-                            <!-- <span class = whitecontainer>
-                                <span class = p2or>or</span>
-                            </span> -->
-                            <span class = p2bluetext>SUBSCRIBE</span>
-                            <div class = subcontent>
-                                <span>Name</span>
-                                <input type="text" class="input-search" placeholder="Igor Ten">
-                                <span class = emailrightbar>Email</span>
-                                <input type="text" class="input-search" placeholder="email@address.com">
-                                <a href = # class = subbutton>SUBSCRIBE</a>
-                                <div class = p2socialmedia>
-                                    <div class = p2fbicon><a href="#"><i class="fa fa-facebook icon-container"></i></a></div>
-                                    <div class = p2twicon><a href="#"><i class="fa fa-twitter icon-container"></i></a></div>
-                                    <div class = p2vkicon><a href="#"><i class="fa fa-vk icon-container"></i></a></div>
-                                    <div class = p2pinicon><a href="#"><i class="fa fa-pinterest-p icon-container"></i></a></div>
-                                    <div class = p2tumicon><a href = #><i class="fa fa-tumblr icon-container"></i></a></div>
-                                    <div class = p2driicon><a href="#"><i class="fa fa-dribbble icon-container"></i></a></div>
-                                </div>
-                            <!-- checkout form label etc -->
+                        <div class="subsection">
+                            <span class="whitecontainer">
+                                <span class="p2or">or</span>
+                            </span>
+                            <h4 class="p2bluetext">SUBSCRIBE</h4>
+                            <form action="#" method="post" class="subcontent">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" class="input-search" placeholder="Igor Ten">                                
+                                <label for="email" class = emailrightbar>Email</label>
+                                <input type="text" id="email" name="email" class="input-search" placeholder="email@address.com">                               
+                                <button type="submit" class="subbutton">SUBSCRIBE</button>
+                            </form>
+                            <div class="p2socialmedia">
+                                <div class="p2fbicon"><a href="#"><i class="fa fa-facebook icon-container"></i></a></div>
+                                <div class="p2twicon"><a href="#"><i class="fa fa-twitter icon-container"></i></a></div>
+                                <div class="p2vkicon"><a href="#"><i class="fa fa-vk icon-container"></i></a></div>
+                                <div class="p2pinicon"><a href="#"><i class="fa fa-pinterest-p icon-container"></i></a></div>
+                                <div class="p2tumicon"><a href="#"><i class="fa fa-tumblr icon-container"></i></a></div>
+                                <div class="p2driicon"><a href="#"><i class="fa fa-dribbble icon-container"></i></a></div>
                             </div>
-                        </div>
+                        </div>                        
                         <div class = p2tab>
-                            <span class = p2bluetext>TAB POST WIDGET</span>
+                            <h class = p2bluetext>TAB POST WIDGET</h>
                             <div class = p2tabsection>
                                 <div class = joint-buttons>
                                     <a href = #>RECENT POST</a>
@@ -382,15 +381,82 @@
                                 </div>
                                 <div class = p2posts>
                                     <div class = p2post1>
-                                        <a href = # class = p2post1container>
-                                        </a>
-                                        <div class = datentitle>
-                                            <span>April 28, 2016</span>
-                                            <!-- <a href = # class = title>Duis commodo elit sed nisi molestie</a> -->
-                                        </div>
-                                        <a href="#"><span class="material-icons">question_answer</span>17</a>
+                                        <a href = # class = p2post1container></a>
+                                        <div class = restofcontent>
+                                            <div class = datencomms>
+                                                <span class = postdate>April 28, 2016</span>
+                                                <div class = icon-comms>
+                                                    <a href = #>
+                                                    <span class="material-icons">question_answer</span>
+                                                    <span class = noofcomms>17</span>
+                                                    </a> 
+                                                </div>
+                                            </div>
+                                            <a href = # class = posttitle>Duis commodo elit sed nisi molestie</a>                                       
+                                        </div> 
                                     </div>
+                                    <div class = furtherposts>
+                                        <div class = p2post1>
+                                            <a href = # class = p2post2container></a>
+                                            <div class = restofcontent>
+                                                <div class = datencomms>
+                                                    <span class = postdate>April 28, 2016</span>
+                                                    <div class = icon-comms>
+                                                        <a href = #>
+                                                        <span class="material-icons">question_answer</span>
+                                                        <span class = noofcomms>17</span>
+                                                        </a> 
+                                                    </div>
+                                                </div>
+                                                <a href = # class = posttitle>Duis commodo elit sed nisi molestie</a>                                       
+                                            </div> 
+                                        </div>
+                                        <div class = p2post1>
+                                            <a href = # class = p2post3container></a>
+                                            <div class = restofcontent>
+                                                <div class = datencomms>
+                                                    <span class = postdate>April 28, 2016</span>
+                                                    <div class = icon-comms>
+                                                        <a href = #>
+                                                        <span class="material-icons">question_answer</span>
+                                                        <span class = noofcomms>17</span>
+                                                        </a> 
+                                                    </div>
+                                                </div>
+                                                <a href = # class = posttitle>Duis commodo elit sed nisi molestie</a>                                       
+                                            </div> 
+                                        </div>
+                                        <div class = lastpost>
+                                            <div class = p2post1>
+                                                <a href = # class = p2post4container></a>
+                                                <div class = restofcontent>
+                                                    <div class = datencomms>
+                                                        <span class = postdate>April 28, 2016</span>
+                                                        <div class = icon-comms>
+                                                            <a href = #>
+                                                            <span class="material-icons">question_answer</span>
+                                                            <span class = noofcomms>17</span>
+                                                            </a> 
+                                                        </div>
+                                                    </div>
+                                                    <a href = # class = posttitle>Duis commodo elit sed nisi molestie</a>                                       
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div> 
                                 </div>
+                            </div>
+                        </div>
+                        <div class = tagssection>
+                            <h class = p2bluetext>TAGS</h>
+                            <div class = tagscontent>
+                                <a href = # class = singulartag>Photography</a>
+                                <a href = # class = singulartag>Webdesign</a>
+                                <a href = # class = singulartag>Youtube</a>
+                                <a href = # class = singulartag>Envato</a>
+                                <a href = # class = singulartag>Art</a>
+                                <a href = # class = singulartag>Themefotest</a>
+                                <a href = # class = singulartag>Illustration</a>
                             </div>
                         </div>
                     </div>
