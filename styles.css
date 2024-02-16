@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
@@ -562,7 +562,7 @@ a {
 }
 
 .lastcards .horizantalcards{
-    padding-top: 18px;
+    padding-top: 20px;
 }
 
 .lastcards .man-comms-likes{
@@ -604,7 +604,8 @@ a {
     color: #3f51b5;
     display: flex;
     align-items: center;
-    margin: 42px 0px;
+    margin: 44px 2px 43px;
+    font-weight: 600;
 }
 
 .p2more .material-icons{
@@ -625,13 +626,13 @@ a {
 
 .leftbg{    
     background-color: #f5f5f5;
-    height: 2302px;
+    height: auto;
     right: 0;
     width: 100%;
 }
 .rightbg{
     background-color: white;
-    height: 2302px;
+    height: auto;
     right: 0;
     width: 100%;
     margin-top: 30px;
@@ -711,7 +712,6 @@ a {
 
 .p2bluetext{
     font-size: 19px;
-    margin-bottom: 6px;
     color: #3f51b5;
     font-weight: 700;
 }
@@ -719,13 +719,13 @@ a {
 .categorycontent{
     border-top: 1px solid #aec3ff;
     font-size: 15px;
-    padding-top: 14.5px;
+    padding-top: 12px;
 }
 
 .categorytype{
     display: flex;
     flex-direction: column;
-    gap: 10.5px;
+    gap: 8px;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -733,7 +733,7 @@ a {
     display: flex;
     justify-content: space-between;
     border-bottom: #ebeae9 solid 1px;
-    padding-bottom: 11.5px;
+    padding-bottom: 10.5px;
 }
 
 .categorytype a{
@@ -747,34 +747,34 @@ a {
 }
 
 .subsection{
-    margin-top: 29px;
+    margin-top: 28px;
     display: flex;
     flex-direction: column;
     font-family: "Open Sans", sans-serif;
     position: relative;
+    font-size: 16px;
 }
 
 .subsection .p2bluetext{
-    font-size: 19px;
+    font-size: 18px;
     margin-left: 2.5px;
     font-weight: 700;
-    margin-bottom: 6.5px;
 }
 
 .rightcontent h4{
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 5.5px;
 }
 
 .subcontent{
-    padding-top: 13px;
+    padding-top: 10.5px;
     border-top: 1px solid #aec3ff;
     display: flex;
     flex-direction: column;
 }
 
 .subcontent .input-search{
-    padding: 13px 0px 12px 15px;
+    padding: 9px 0px 12px 15px;
     border: 1px  #e0e0e0 solid;
     border-radius: 5px;
     margin-top: 11px;
@@ -784,7 +784,7 @@ a {
 }
 
 .emailrightbar{
-    margin-top: 14px;
+    margin-top: 12px;
 }
 
 .subbutton{
@@ -813,7 +813,7 @@ a {
     display: inline-block;
     text-align: center;
     position: absolute;
-    bottom: 44px;
+    bottom: 46px;
     left: 44.8%;
 }
 
@@ -1006,10 +1006,10 @@ a {
 }
 
 .tagssection{
-    margin-top: 29px;
+    margin-top: 28px;
     display: flex;
     flex-direction: column;
-    padding-left: 2px;
+    padding-left: 1px;
 }
 
 .tagscontent{
@@ -1018,6 +1018,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    padding-left: 1px;
 }
 
 .tagssection .p2bluetext{
@@ -1026,7 +1027,7 @@ a {
 
 .singulartag{
     background-color: #ededed;
-    padding: 6px 14px 8px 14px;
+    padding: 4px 14px 7px 14px;
     font-size: 14px;
     color: black;
     font-family: "Open Sans", sans-serif;
@@ -1036,25 +1037,215 @@ a {
     width: min-content;
 }
 
-.page3pics{
-    background-image: url("pics.png");
-    height: 24vh;
-    background-size: contain;
-    background-position:center;
-    background-repeat: no-repeat;
+.page3pics {
+    display: flex;
     width: 100%;
+    overflow: hidden;
+}
+
+.page3pics img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .page3forest{
     position: relative;
-    background-image: url("forest.png");
-    height: 24vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('trees.png');
+    height: 21vh;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
 }
 
 .page3bg{
     background-color: #212121;
-    height: 60vh;
+}
+
+.page3bg h4{
+    margin: 0;
+}
+
+.page3forestmaincontainer{
+    width: 1170px;
+    margin: auto;
+}
+
+.p3emailinput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.page3head{
+    font-weight: 900;
+    font-size: 42px;
+    color: white;
+    margin-bottom: 9px;
+    letter-spacing: 1px;
+}
+
+.page3forest .input-search{
+    padding: 9px 61px 12px 19px;
+    font-size: 16px;
+    border: none; 
+    font-family: "Open Sans", sans-serif;
+    background: transparent linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    border: #747577 solid 1.5px;
+    border-radius: 25px;
+    height: min-content;
+    margin-left: 11px;
+}
+
+.page3forestmaincontainer .subbutton{
+    padding: 10px 28px 13px 34px; 
+    background-color: #303f9f;
+    border-radius: 22px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 12px;
+}
+
+.page3content{
+    width: 1170px;
+    margin: auto;
+    padding-left: 1px;
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+}
+
+.p3widget{
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.widgethead {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.barssection {
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.widgetbar {
+    border: 1.5px solid #757575;
+    padding: 9px 0px 7px 14px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.widgetbarhead {
+    color: #a1a1a1;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.widgetplus {
+    color: #909090;
+    font-size: 24px;
+    padding: 1px 8px 1px 0px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #212121; 
+    border: 1.5px solid #757575;
+    border-top: none; 
+    padding: 14px 0px 2px 12px;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: #7a7a7a;
+    padding-bottom: 17.5px;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #333333;
+}
+
+
+.birdntext{
+    display: flex;
+    color: #969696;
+    font-size: 14px;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.birdntext .fa{
+    color: #55acee;
+    font-size: 23px;
+    padding: 2px 10px 10px 10px;
+}
+
+.twitterwidget{
+    display: flex;
+    flex-direction: column;
+}
+.twitterwidget .barssection{
+    padding-top: 22px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.twitterwidget .widgethead{
+    margin-left: 1px;
+}
+
+.twitactions{
+    color: #828282;
+    font-size: 13px;
+}
+
+.twitactions a{
+    color: #828282;
+    text-decoration: underline;
+}
+
+.timetweeted{
+    padding: 1px 0px 0px 2px;
+}
+
+.singledivision{
+    border-bottom: 1px solid #3c3c3c;
+    padding-bottom: 11px;
+}
+
+.lastsinglediv .singledivision{
+    border: none;
+}
+
+.singularaction{
+    padding: 3px 3px 0px 7px;
+}
+
+.p3widget .p2socialmedia{
+    margin-top: 20px;
+    border: none;
+    padding: 0;
+}
+
+.socialwidget .widgethead{
+    margin-top: 2px;
+    margin-left: 2px;
 }
