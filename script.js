@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
             container.appendChild(container.firstElementChild);
         }, { once: true });
     }
-
     setInterval(startSlider, 3000);
 });
 

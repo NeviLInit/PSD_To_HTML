@@ -604,7 +604,7 @@ a {
     color: #3f51b5;
     display: flex;
     align-items: center;
-    margin: 44px 2px 43px;
+    margin: 44px 2px 44px;
     font-weight: 600;
 }
 
@@ -663,7 +663,6 @@ a {
 
 .searchbar{
     display: flex;
-    justify-content: space-between;
     margin: 23px 0px 0px 3px;
     border-radius: 20px;
     border: none;
@@ -671,7 +670,6 @@ a {
     width: 92.8%;
     padding: 4px 0px 4px 13px;
     align-items: center;
-    padding-left:13px;
 }
 
 .searchbar .input-search{
@@ -1046,13 +1044,12 @@ a {
 .page3pics img {
     width: 100%;
     height: auto;
-    display: block;
 }
 
 .page3forest{
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('trees.png');
-    height: 21vh;
+    height: 22.75vh;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -1077,7 +1074,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 12px;
+    margin-top: 4px;
 }
 
 .page3head{
@@ -1115,13 +1112,15 @@ a {
     padding-left: 1px;
     display: flex;
     justify-content: space-between;
-    gap: 29px;
 }
 
 .p3widget{
     padding-top: 45px;
     display: flex;
     flex-direction: column;
+}
+
+.p3restwidgets .p3widget{
     width: 25%;
 }
 
@@ -1145,6 +1144,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: 5px;
+    gap: 144px;
 }
 
 .widgetbarhead {
@@ -1199,17 +1199,22 @@ a {
 .twitterwidget{
     display: flex;
     flex-direction: column;
+    width: 88%;
+    padding-left: 15px;
+    padding-right: 25px;
 }
+
 .twitterwidget .barssection{
     padding-top: 22px;
     font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: column;
     gap:12px;
+    padding-left: 14px;
 }
 
 .twitterwidget .widgethead{
-    margin-left: 1px;
+    margin-left: 15px;
 }
 
 .twitactions{
@@ -1240,12 +1245,116 @@ a {
 }
 
 .p3widget .p2socialmedia{
-    margin-top: 20px;
+    margin-top: 15px;
     border: none;
     padding: 0;
+    padding-left: 11px;
+    width: 94%;
 }
 
 .socialwidget .widgethead{
-    margin-top: 2px;
-    margin-left: 2px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.last2wid{
+    display: flex;
+    justify-content: space-between;
+    width: 48.75%;
+}
+
+.imagegridp3{
+    padding-left: 1px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-right: 30px;
+}
+
+.p3widget .input-search{
+    background-color: #212121;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding: 12px 81px 11px 13px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+.last2wid .widgethead{
+    margin-bottom: 27px;
+}
+
+#message{
+    padding-bottom: 86px;
+}
+
+.p3widget .subbutton{
+    background-color: #2f2f2f;
+    color: #e9e9e9;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    padding: 12px 96px;
+    margin: 0;
+}
+
+.page4topbar{
+    margin-top: 78.5px;
+    background-color: #303030;
+}
+
+.page4maincontainer{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p4tabs a{
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.p4tabs{
+    padding: 32px 0px 34.5px 0px;
+    display: flex;
+    gap: 37px;
+}
+
+.p4searchbar{
+    background-color: #2f2f2f;
+    border: 1px solid #7e7e7e;
+    padding:2px 12px 2px 18px;
+    border-radius: 25px;
+    margin-right: 68px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.p4topbarright{
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+.p4searchbar .material-icons{
+    color: #858585;
+    font-size: 19px;
+    padding-top: 7px;
+}
+
+.p4searchbar .input-search{
+    background-color: #2f2f2f;
+    border: none;
+}
+.page4topbar .top-right-icons29k a{
+    color: #959595;
+}
+
+.page4topbar .top-right-icons29k{
+    padding-bottom: 10px;
+    padding-right: 2px;
 }
