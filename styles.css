@@ -1038,12 +1038,28 @@ a {
 .page3pics {
     display: flex;
     width: 100%;
-    overflow: hidden;
+    overflow-x: scroll;
 }
 
-.page3pics img {
+.page3pics div img{
     width: 100%;
-    height: auto;
+    transition: transform 0.5s;
+}
+
+.page3pics::-webkit-scrollbar{
+    display: none;
+}
+
+.page3pics div{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    flex: none;
+    height: 100%;
+}
+
+.page3pics img{
+    width: 100%;
 }
 
 .page3forest{
@@ -1286,7 +1302,9 @@ a {
 }
 
 #message{
-    padding-bottom: 86px;
+    padding-bottom: 64px;
+    margin-bottom: 7px;
+    padding-right: 78.5px;
 }
 
 .p3widget .subbutton{
@@ -1313,14 +1331,14 @@ a {
 
 .p4tabs a{
     color: white;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 13px;
 }
 
 .p4tabs{
-    padding: 32px 0px 34.5px 0px;
+    padding: 31px 0px 35.5px 0px;
     display: flex;
-    gap: 37px;
+    gap: 39px;
 }
 
 .p4searchbar{

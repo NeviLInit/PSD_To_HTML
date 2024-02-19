@@ -1,19 +1,20 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const container = document.querySelector('.page3pics');
-    const images = document.querySelectorAll('.page3pics img');
-    const imageWidth = images[0].clientWidth;
-
-    function startSlider() {
-        container.style.transition = 'transform 1s ease-in-out'; 
-        container.style.transform = `translateX(-${imageWidth}px)`;
-        container.addEventListener('transitionend', function () {
-            container.style.transition = 'none';
-            container.style.transform = 'translateX(0)';
-            container.appendChild(container.firstElementChild);
-        }, { once: true });
+const scrollContainer = document.querySelector(".page3pics");
+let scrollSpeed = 1;
+let scrollDirection = 1;
+let scrollInterval = setInterval(autoScroll, 16);
+function autoScroll() {
+    let targetScrollLeft = scrollContainer.scrollLeft + scrollSpeed * scrollDirection;
+    if ((scrollDirection === 1 && targetScrollLeft >= scrollContainer.scrollWidth - scrollContainer.clientWidth) ||
+        (scrollDirection === -1 && targetScrollLeft <= 0)) {
+        targetScrollLeft = scrollDirection === 1 ? 0 : scrollContainer.scrollWidth - scrollContainer.clientWidth;
     }
-    setInterval(startSlider, 3000);
-});
+    requestAnimationFrame(() => {
+        scrollContainer.scrollLeft = targetScrollLeft;
+    });
+}
+function stopAutoScroll() {
+    clearInterval(scrollInterval);
+}
 
 
 document.getElementById('pagesdropdownToggle').addEventListener('click', function (event) {
